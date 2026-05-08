@@ -20,7 +20,7 @@ jobs:
           server:  ftp-aldrinn.alwaysdata.net # Change if using another host
           username: aldrinn
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /www/ # Replace with your correct path
+          server-dir: /home/aldrinn/www/ # Replace with your correct path
           protocol: ftps
           timeout: 86400000
           log-level: standard
