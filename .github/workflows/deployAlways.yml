@@ -19,5 +19,6 @@ jobs:
           server: ftp-aldrinn.alwaysdata.net
           username: aldrinn
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftp
+          protocol: ftps
+          port: 21
           server-dir: /www/
